@@ -1,16 +1,38 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shoping List</title>
 	<link rel="stylesheet" href="styles.css">
+<!-- <script src="./js/list.js"></script> -->
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<!-- <header id="heading">
+		Shopping List Calculator
+	</header> -->
+	
+        <!-- <form id="myinputs"> -->
+   					<input  id="item-name-input" type="text" placeholder="Name">
+     <!-- <td><input type="text" id="item-qty-input" placeholder="Qty"></td> -->
+     <input  id="item-price-input" type="number" placeholder="Price">
+        <!-- </form> -->
+     <button id="add" >Add</button>
+      <table id="table">
+					<tr>
+							<th id="item">item</th>
+							<th id="price">price</th>
+						</tr>
+					</table>
+    <!-- </table> -->
+    <h3>grand total :<span id="total">0</span></h3>
+ 
+	<!-- <footer></footer> -->
 
+
+	<script src="script.js"></script>
 </body>
 
 </html>

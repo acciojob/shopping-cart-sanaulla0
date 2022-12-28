@@ -16,11 +16,11 @@ let price = priceInput.value;
 if(item !=='' && price !==""){
  
  let row = document.createElement('tr');
- row.innerText='';
+ // row.innerText='';
  // priceArr.push(Number(price));
  sum+=Number(price);
  // console.log(priceArr);
- console.log(sum);
+ 
 
 row.innerHTML =`<td>${item} </td> <td>${price}</td>`
 
